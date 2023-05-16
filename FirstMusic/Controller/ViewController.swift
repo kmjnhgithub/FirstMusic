@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         songs.append(Song(name: "初戀", albumName: "初戀", artistName: "宇多田光", imageName: "cover2", trackName: "song2"))
         songs.append(Song(name: "We Are", albumName: "Ambitions", artistName: "ONE OK ROCK", imageName: "cover3", trackName: "song3"))
     }
-    
+     
     // table
     
     //numberOfRowsInSection
