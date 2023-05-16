@@ -80,6 +80,7 @@ class PlayerViewController: UIViewController, AVAudioPlayerDelegate {
                 return
             }
             
+            
             player = try AVAudioPlayer(contentsOf: URL(string: urlString)!)
             player?.delegate = self
             
